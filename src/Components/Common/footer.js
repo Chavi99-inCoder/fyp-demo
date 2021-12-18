@@ -10,6 +10,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     minHeight: "auto",
+    position: "absolute",
+    left: 0,
+    bottom: 0,
+    right: 0,
   },
   main: {
     marginTop: theme.spacing(3),
